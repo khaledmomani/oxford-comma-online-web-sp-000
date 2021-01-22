@@ -8,6 +8,6 @@ return "#{array[0]}, #{array[1]}, and #{array [2]}"
 elsif array.length > 3
 lastOne = array.pop
 array.join(,)
->>
+array << lastOne
 end
 end
